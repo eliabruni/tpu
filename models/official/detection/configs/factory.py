@@ -19,7 +19,7 @@ from __future__ import print_function
 
 
 import sys
-sys.path.append('/content/tpu/models/official/detection/')
+sys.path.append('/content/tpu/models/')
 
 
 
