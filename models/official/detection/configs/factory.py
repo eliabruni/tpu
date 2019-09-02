@@ -14,6 +14,9 @@
 # ==============================================================================
 """Factory to provide model configs."""
 
+import sys
+sys.path.append('/content/tpu/models/official/detection/')
+
 from configs import retinanet_config
 from hyperparameters import params_dict
 
