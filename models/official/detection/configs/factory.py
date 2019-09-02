@@ -13,13 +13,15 @@
 # limitations under the License.
 # ==============================================================================
 """Factory to provide model configs."""
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
 
 import sys
 sys.path.append('/content/tpu/models/official/detection/')
 
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
+
 
 import os
 import pprint
