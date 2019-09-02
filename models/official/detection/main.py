@@ -24,7 +24,7 @@ import pprint
 from absl import flags
 
 import tensorflow as tf
-
+sys.path.append('/content/tpu/models/official/detection/')
 from configs import factory
 from dataloader import input_reader
 from dataloader import mode_keys as ModeKeys
